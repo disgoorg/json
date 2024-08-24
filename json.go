@@ -35,4 +35,7 @@ type (
 
 	// Unmarshaler is the interface implemented by types that can unmarshal a JSON description of themselves.
 	Unmarshaler = json.Unmarshaler
+
+	// Number represents a JSON number literal.
+	Number = json.Number
 )
